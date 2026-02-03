@@ -19,7 +19,7 @@ function renderTodos() {
     actions.className = 'actions';
 
     const deleteBtn = document.createElement('button');
-    deleteBtn.textContent = '❌';
+    deleteBtn.textContent = 'Close';
     deleteBtn.onclick = () => deleteTodo(index);
 
     actions.appendChild(deleteBtn);
